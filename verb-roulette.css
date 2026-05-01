@@ -661,7 +661,7 @@ h1 {
   }
 
   /* Input row: stack vertically */
-  .input-row       { flex-direction: column; gap: 0.6rem; }
+  .input-row       { flex-direction: column; align-items: stretch; gap: 0.6rem; }
   .arrow-sep       { display: none; }
   .input-group label { text-align: left; }
 
