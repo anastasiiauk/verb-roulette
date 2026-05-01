@@ -662,8 +662,10 @@ h1 {
 
   /* Input row: stack vertically */
   .input-row       { flex-direction: column; align-items: stretch; gap: 0.6rem; }
+  .input-group     { width: 100%; }
   .arrow-sep       { display: none; }
-  .input-group label { text-align: left; }
+  /* 16px minimum prevents iOS Safari auto-zoom on input focus */
+  .verb-input      { font-size: 1rem; }
 
   /* Challenge box */
   .challenge-box { padding: 1.2rem 1rem; gap: 0.7rem; }
